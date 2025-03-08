@@ -8,13 +8,14 @@ import Contact from './ContactPage';
 import AboutmePage from './aboutmePage'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CvPage from './cvPage'
+import Portfolio from './ProjectPage'
 
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const REPO_NAME = "portfolio_upd";
   return (
-    <Router>
+    <Router basename={`/${REPO_NAME}`}>
       <Routes>
       <Route path="/" element={<Construction />} />
         <Route path="/about" element={<AboutmePage />} />
