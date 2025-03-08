@@ -21,8 +21,7 @@ function App() {
         <Route path="projects/construction" element={<Construction />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/cv" element={<CvPage/>} />
-        <Route path="/contact" element={<Contact />} /> {/* Lägg till kontaktsidan */}
-        {/* Lägg till andra sidor här om det behövs */}
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   )
