@@ -14,34 +14,35 @@ import gameThirtyImage from "./assets/gameThirty-app.png";
 
 const projects = [
   {
-    title: "Mobil kalenderapplikation",
-    description: "Utveckling av kalenderapplikation för Android.",
+    title: "Mobile Calendar Application",
+    description: "Development of a mobile calendar app for Android, offering intuitive scheduling and event management.",
     tags: ["Kotlin", "Jetpack Compose"],
     image: calendarImage,
     bgColor: "bg-purple-300",
   },
   {
-    title: "Digital guide till Lumberscan",
-    description: "Utveckling av digital guide.",
+    title: "Digital Guide for Lumberscan",
+    description: "Creation of a user-friendly digital guide to assist with the Lumberscan application.",
     tags: ["UX", "UI"],
     image: lumberscanImage,
     bgColor: "bg-yellow-300",
   },
   {
-    title: "Digital guide till Trangias stormkök",
-    description: "Utveckling av digital guide.",
+    title: "Digital Guide for Trangia's Camping Stove",
+    description: "Development of a comprehensive digital guide for Trangia's camping stove, designed to enhance user experience in outdoor cooking.",
     tags: ["UX", "UI", "React"],
     image: trangiaImage,
     bgColor: "bg-green-300",
   },
   {
-    title: "Game thirty / Yatzy application",
-    description: "Utveckling av digital guide.",
+    title: "Game Thirty / Yatzy Application",
+    description: "Design and development of a digital version of the classic Yatzy game, offering smooth gameplay and interactive features.",
     tags: ["UX", "UI", "Kotlin"],
     image: gameThirtyImage,
     bgColor: "bg-green-300",
   },
 ];
+
 
 export default function Portfolio() {
   return (
