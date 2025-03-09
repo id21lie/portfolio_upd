@@ -348,9 +348,11 @@ h1 span {
     font-size: 1.75rem;
   }
 
+
   .aboutme-text {
     width: 80%;
     text-align: center;
+    margin-left: 100px;
 
   }
 
