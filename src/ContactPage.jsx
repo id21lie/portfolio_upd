@@ -22,7 +22,7 @@ export default function Contact() {
                 <p>lisaihre@gmail.com</p>
             </a>
 
-            <a href="https://www.linkedin.com/in/lisa-olsson" target="_blank" rel="noopener noreferrer" className="contact-card">
+            <a href="www.linkedin.com/in/lisaihre" target="_blank" rel="noopener noreferrer" className="contact-card">
                 <div className="icon">
                 🔗 {/* LinkedIn icon */}
                 </div>

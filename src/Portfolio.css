@@ -243,6 +243,7 @@ h2 {
 
 .aboutme-container {
   display: flex;
+  align-content: center;
 }
 
 .profilePic {
@@ -307,12 +308,13 @@ h1 span {
   }
 
   .aboutme-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+   
     align-items: center;
   }
 
   .profilePic {
-    width: 40%;
+    width: 50%;
     height: auto;
     margin: 20px 0;
   }
@@ -324,7 +326,7 @@ h1 span {
   .aboutme-text {
     width: 80%;
     text-align: center;
-    margin-left: 0;
+    margin-left: 15%;
   }
 
   .project-title{
