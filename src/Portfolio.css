@@ -270,7 +270,20 @@ h2 {
   padding: 0;
 }
 
+.hero-title {
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
+  font-weight: 700;
+}
+
+h1 span {
+  color: white; /* Motsvarar text-white */
+  font-weight: 800; /* Motsvarar font-extrabold */
+}
+
+
 @media (max-width: 768px) {
+  
+
   .project-card {
     flex-direction: column;
   }
@@ -302,6 +315,10 @@ h2 {
     width: 40%;
     height: auto;
     margin: 20px 0;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
   }
 
   .aboutme-text {
