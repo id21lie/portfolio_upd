@@ -20,14 +20,15 @@ export default function AboutmePage() {
             <img className='profilePic' src={profilePic} alt="" />
             <div className='aboutme-text'>
                 <h3>About me</h3>
-                <p>Mitt namn är Lisa, och jag studerar mitt fjärde år på 
-                    Civilingenjörsprogrammet i interaktion och design. Utöver 
-                    mitt intresse för natur och sport brinner jag för programmering.
-                     Innan min utbildning hade jag aldrig kodat, men redan efter ett
-                      år på programmet visste jag att mjukvaruutveckling var ett 
-                      område jag ville arbeta med. Därför har jag under min master 
-                      specialiserat mig inom artificiell intelligens, apputveckling 
-                      och människa-robotinteraktion.</p>
+                <p>My name is Lisa, and I am in my fourth year of 
+                  the Master of Science program in Interaction and 
+                  Design. In addition to my interest in nature and 
+                  sports, I have a strong passion for programming. 
+                  Before starting my studies, I had never written a 
+                  line of code, but after just a year in the program, 
+                  I knew that software development was the path I wanted 
+                  to pursue. As a result, I have focused my master's studies 
+                  on artificial intelligence, app development, and human-robot interaction.</p>
             </div>
 
         </div>
