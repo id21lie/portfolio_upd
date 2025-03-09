@@ -13,9 +13,9 @@ import Portfolio from './ProjectPage'
 
 function App() {
   const [count, setCount] = useState(0)
-  const REPO_NAME = "portfolio_upd";
+  const REPO_NAME = "/portfolio_upd";
   return (
-    <Router basename={`/${REPO_NAME}`}>
+    <Router basename={REPO_NAME}>
       <Routes>
       <Route path="/" element={<AboutmePage />} />
         <Route path="/about" element={<AboutmePage />} />

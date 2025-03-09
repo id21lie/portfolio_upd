@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="project-container"> {/* Container för hela kortet */}
+    <div className="project-container">
       <div className="project-image">
         <img src={project.image} alt={project.title} className="w-full h-auto" />
       </div>
