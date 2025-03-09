@@ -322,7 +322,10 @@ h1 span {
 
   .project-card .project-image {
     width: 100%;
-  
+    height: auto;
+  }
+
+  .project-image{
     min-height: 100%;
   }
 

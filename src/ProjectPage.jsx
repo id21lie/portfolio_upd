@@ -21,7 +21,7 @@ const projects = [
     bgColor: "bg-purple-300",
   },
   {
-    title: "Digital guide till Lumberscan plattform",
+    title: "Digital guide till Lumberscan",
     description: "Utveckling av digital guide.",
     tags: ["UX", "UI"],
     image: lumberscanImage,
