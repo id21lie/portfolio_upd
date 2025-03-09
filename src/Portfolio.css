@@ -249,8 +249,10 @@ h2 {
 .profilePic {
   margin-left: auto;
   margin-right: 0;
-  width: 15%;
-  height: 15%;
+  margin-top: 45px;
+  width: 150px;
+  height: 150px;
+
 }
 
 .aboutme-text {
@@ -277,8 +279,8 @@ h2 {
 }
 
 h1 span {
-  color: white; /* Motsvarar text-white */
-  font-weight: 800; /* Motsvarar font-extrabold */
+  color: white;
+  font-weight: 800;
 }
 
 
