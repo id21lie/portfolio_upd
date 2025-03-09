@@ -287,6 +287,10 @@ h1 span {
 
 @media (max-width: 768px) {
 
+  .body{
+    max-width: 100%;
+  }
+
   .container {
     max-width: 100%;
     padding: 0 15px;
