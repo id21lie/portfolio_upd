@@ -261,9 +261,9 @@ h2 {
 }
 
 .aboutme-text {
-  margin-right: auto;
+ 
   width: 50%;
-  text-align: left;
+  text-align: center;
 }
 
 .cv-wrapper {
@@ -352,7 +352,7 @@ h1 span {
   .aboutme-text {
     width: 80%;
     text-align: center;
-    margin-left: 100px;
+    
 
   }
 
