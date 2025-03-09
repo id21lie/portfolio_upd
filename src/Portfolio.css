@@ -286,6 +286,16 @@ h1 span {
 
 
 @media (max-width: 768px) {
+
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .hammer {
+    width: 100%;
+    margin-right: 0;
+  }
   
 
   .project-card {
@@ -312,7 +322,6 @@ h1 span {
 
   .aboutme-container {
     flex-direction: column-reverse;
-   
     align-items: center;
   }
 
