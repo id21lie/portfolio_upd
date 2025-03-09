@@ -17,7 +17,7 @@ function App() {
   return (
     <Router basename={`/${REPO_NAME}`}>
       <Routes>
-      <Route path="/" element={<Construction />} />
+      <Route path="/" element={<AboutmePage />} />
         <Route path="/about" element={<AboutmePage />} />
         <Route path="projects/construction" element={<Construction />} />
         <Route path="/projects" element={<Projects />} />
