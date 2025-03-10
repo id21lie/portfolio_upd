@@ -13,7 +13,7 @@ export default function ConstructionPage() {
       <NavigationBar/>
       <h2 className="text-5xl font-bold mb-4">Under Construction</h2>
       <p className="text-lg text-gray-300 mb-6">
-        We're working hard to bring you something amazing. Stay tuned!
+        This page is under construction. Stay tuned!
       </p>
       <div className="relative w-48 h-48">
         <img
