@@ -27,7 +27,7 @@ export default function Contact() {
                 🔗 {/* LinkedIn icon */}
                 </div>
                 <h3>LinkedIn</h3>
-                <p>linkedin.com/in/lisa-ihre</p>
+                <p>linkedin.com/in/lisaihre</p>
             </a>
             </section>
 
